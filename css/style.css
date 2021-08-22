@@ -137,6 +137,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.work-links {
+  display: block;
+}
 .active-menu {
   color: var(--accent-color);
 }
@@ -246,9 +249,9 @@ body {
   height: 120px;
   background-color: #f4f3f9;
   border-radius: 4px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 100px;
   margin-bottom: 30px;
 }
 .description {
@@ -522,6 +525,7 @@ body {
 }
 .adress {
   font-size: 14px;
+  margin-top: 0;
   margin-bottom: 9px;
   line-height: 1.71;
   font-style: normal;
@@ -565,28 +569,24 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-color);
+  margin-top: 0;
   margin-bottom: 20px;
 }
-
 .icon-join-flex {
   display: flex;
   color: var(--main-color);
 }
-
 .icon-join-flex .icon-team {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-
 .item .icon-team:hover,
 .item .icon-team:focus {
   background-color: var(--accent-color);
 }
-
 .icon-join {
   fill: var(--main-color);
 }
-
 .icon-join-flex .item:not(:last-child) {
   margin-right: 10px;
 }
